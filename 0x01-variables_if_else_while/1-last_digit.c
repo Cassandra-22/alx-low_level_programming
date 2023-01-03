@@ -14,7 +14,7 @@ int main(void)
 	
 	sand(time(0));
 	n = rand() - RAND_MAX / 2;
-	printf("last digit of %d  is" ,n);
+	printf("last digit of %d  is", n);
 	num = n % 10;
 	if (num > 5)
 	{
@@ -29,4 +29,4 @@ int main(void)
 		printf("%d and is 0\n", num);
 	}
 	return (0);
-}	
+}
